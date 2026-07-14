@@ -6,7 +6,7 @@ const Schools = () => {
   return (
     <div>
     <div className="relative">
-    <Image src={heroclip} />
+    <Image src={heroclip}  alt="heroclip" />
     <div className="lg:text-5xl text-xl top-4 left-5 text-white absolute lg:top-[75px] lg:left-[50px]">SCHOOLS</div>
     </div>
 <div className="lg:w-[820px] px-4 mx-auto mt-24 flex flex-col">

@@ -7,8 +7,8 @@ import face from '../../public/face.svg'
 const Reviews = () => {
   return (
     <div className='flex flex-col lg:w-[1000px] mx-auto justify-center items-center my-32 py-8 gap-6 relative'>
-        <div className="absolute top-[4.7rem] md:top-[4rem] left-6 md:left-12 lg:left-24"><Image src={quotes} className='w-[70%]' /></div>
-        <div className="text-2xl font-bold mb-2">What Our Parents Say</div>
+        <div className="absolute top-[4.7rem] md:top-[4rem] left-6 md:left-12 lg:left-24"><Image src={quotes} className='w-[70%]'  alt="quotes" /></div>
+        <div className="text-4xl font-bold text-black mb-2">What Our Parents Say</div>
         <div className="flex w-full items-center">
             <div className="bg-[#F1F1F1] rounded-[50%] p-1 hidden lg:block"><RxCaretLeft color='white' size={30} /></div>
             <div className="lg:w-[650px] text-center text-[#858484] mx-auto px-12 lg:px-0">
@@ -18,7 +18,7 @@ const Reviews = () => {
         </div>
         <div className="flex items-center gap-2 ">
             <div className="">
-                <Image src={face} />
+                <Image src={face}  alt="face" />
             </div>
             <div className="font-medium">Mrs Oladele Bisola</div>
         </div>

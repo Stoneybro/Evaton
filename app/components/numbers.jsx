@@ -8,7 +8,7 @@ const numbers = () => {
 
 
       <div className="md:max-w-[1050px] mx-auto ">
-      <div className="text-center text-2xl md:text-3xl font-extrabold pt-14 md:pt-28">Evaton In Numbers</div>
+      <div className="text-center text-4xl font-bold pt-14 md:pt-28 text-black">Evaton In Numbers</div>
 
 <div className="flex md:flex-row md:px-0 px-4  flex-col justify-between items-center md:h-[440px] mt-7 md:mt-14">
 

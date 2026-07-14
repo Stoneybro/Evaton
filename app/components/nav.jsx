@@ -1,6 +1,6 @@
 'use client'
 import React,{useState} from 'react'
-import Evaton from '../../public/evaton.svg'
+import Evaton from '../../public/logo.svg'
 import {RxCaretDown,RxCaretRight} from 'react-icons/rx'
 import Link from 'next/link'
 import { BiMenu,BiX } from 'react-icons/bi'
@@ -22,10 +22,10 @@ const Nav = () => {
     <nav className=' sticky top-0 w-full bg-primary  h-[82px] z-10 pb-4  '>
 
       <div className="flex  items-center mx-auto max-w-[1200px] relative">
-      <div className='mr-auto '><Link href={'/'} className='inline'><Image src={Evaton}  /></Link></div>
+      <div className='mr-auto '><Link href={'/'} className='inline'><Image src={Evaton}   alt="Evaton" /></Link></div>
       <div className="lg:hidden flex mr-4 ml-1 z-10" onClick={()=>setToggle(!toggle)}>{toggle?<BiX size={45} color='rgba(25, 41, 106, 1)' />:<BiMenu size={45} color='rgba(25, 41, 106, 1)' />}</div>
      {toggle&& <div className="bg-white h-screen w-screen fixed overflow-hidden top-0  left-0  flex items-start justify-center">
-     <div className="text-secondary flex flex-col justify-center items-center gap-8 mt-20 text-xl font-semibold">
+      <div className="text-secondary flex flex-col justify-center items-center gap-8 mt-20 text-xl font-semibold">
         <Link href={'#'} className="text-secondary">HOME</Link>
         <Link href={'#'} className="">ABOUT </Link>
         <button onClick={()=>setMobilenav({...mobilenav,school:!mobilenav.school})} className={`flex items-center  ${!mobilenav.school && 'text-pink'}`}>SCHOOLS<RxCaretDown size={32} /></button>
@@ -41,10 +41,10 @@ const Nav = () => {
          <Link href={'#'} className="">Scholarships</Link>
         </div>
         <Link href={'#'} className="">ACADEMICS </Link>
-        <Link href={'#'} className="">CONTACT US</Link>
+        <Link href={'#'} className="">SCHOOL PORTAL</Link>
       </div>
       </div>}
-      <div className=" hidden lg:flex justify-between items-center gap-8  h-[80px]   mb-2 font-bold text-sm">
+      <div className=" hidden lg:flex justify-between items-center gap-8  h-[80px]   mb-2 font-semibold text-lg">
       <div >
 
       <Link href={'/'} className={`hover:text-pink hover:border-b-2 border-pink pb-[3px] ${router==='/'?'text-pink':''} `}>HOME </Link>
@@ -73,7 +73,7 @@ const Nav = () => {
       <Link href={'/academics'} className={`hover:text-pink hover:border-b-2 border-pink pb-[3px] ${router==='/academics'?'text-pink':''} `}>ACADEMICS<div></div></Link>
     </div>
     <button className=' bg-secondary hover:bg-pink text-primary px-5 py-3 xl:mr-0 mr-4 min-w-[158px]' >
-      <Link className='flex gap-[0.5px] items-center whitespace-nowrap' href={'#'}>CONTACT US<div><RxCaretRight color='white' size={22}/></div></Link>
+      <Link className='flex gap-[0.5px] items-center whitespace-nowrap' href={'#'}>SCHOOL PORTAL<div><RxCaretRight color='white' size={22}/></div></Link>
     </button>
       </div>
     

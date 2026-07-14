@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <div className='relative'>
 
-    <Image src={hero}  />
-    <div className="hidden lg:block absolute top-[75.5%] font-semibold text-[35px] text-white px-20 py-4 bg-light border-b-4 border-pink">Empowering Minds, Shaping Futures</div>
+    <Image src={hero}   alt="hero" />
+    <div className="hidden lg:block absolute top-[75.5%] left-[100px] font-bold text-6xl text-white drop-shadow-lg">Empowering Minds, Shaping Futures</div>
   </div>
   )
 }
