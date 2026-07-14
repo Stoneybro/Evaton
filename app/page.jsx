@@ -1,25 +1,18 @@
-'use client'
+"use client"
 
-
-import { Poppins,Open_Sans } from 'next/font/google'
-import Hero from './components/Hero'
-import Orderdemo from './components/orderdemo'
-const poppins = Poppins({ 
-  subsets: ['latin'] ,
-  weight:['100','200','300','400','500','600','700','800','900']
-})
-const openSans = Open_Sans({ 
-  subsets: ['latin'] ,
-  weight:['300','400','500','600','700','800']
-})
+import Hero from './components/hero'
+import Features from './components/features'
+import Numbers from './components/numbers'
+import Text from './components/Text'
 
 export default function Home() {
 
   return (
-    
     <div>
-       <Hero />
-       <Orderdemo />
+      <Hero />
+      <Text />
+      <Features />
+      <Numbers />
     </div>
   )
 }
