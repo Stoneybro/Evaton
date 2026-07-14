@@ -21,7 +21,7 @@ const Nav = () => {
   return (
     <nav className=' sticky top-0 w-full bg-primary  h-[82px] z-10 pb-4  '>
 
-      <div className="flex  items-center mx-auto max-w-[1200px] relative">
+      <div className="flex  items-center mx-auto max-w-[1350px] relative px-4 xl:px-0">
       <div className='mr-auto '><Link href={'/'} className='inline'><Image src={Evaton}   alt="Evaton" /></Link></div>
       <div className="lg:hidden flex mr-4 ml-1 z-10" onClick={()=>setToggle(!toggle)}>{toggle?<BiX size={45} color='rgba(25, 41, 106, 1)' />:<BiMenu size={45} color='rgba(25, 41, 106, 1)' />}</div>
      {toggle&& <div className="bg-white h-screen w-screen fixed overflow-hidden top-0  left-0  flex items-start justify-center">
