@@ -47,11 +47,11 @@ const Nav = () => {
       <div className=" hidden lg:flex justify-between items-center gap-8  h-[80px]   mb-2 font-semibold text-lg">
       <div >
 
-      <Link href={'/'} className={`hover:text-pink hover:border-b-2 border-pink pb-[3px] ${router==='/'?'text-pink':''} `}>HOME </Link>
+      <Link href={'/'} className={`hover:text-pink ${router==='/'?'text-pink':''} `}>HOME </Link>
 
     </div>
     <div>
-      <Link href={'/about'}  className={`hover:text-pink hover:border-b-2 border-pink pb-[3px] ${router==='/about'?'text-pink':''} `}>ABOUT</Link>
+      <Link href={'/about'}  className={`hover:text-pink ${router==='/about'?'text-pink':''} `}>ABOUT</Link>
     </div>
     <div className='relative h-full flex justify-center items-center ' onMouseOver={()=>setNav(true)} onMouseLeave={()=>setNav(false)} >
       <Link className='hover:text-pink flex gap-[0.5px] items-center'  href={'#'}>SCHOOLS<div><RxCaretDown size={22} /></div></Link>
@@ -70,7 +70,7 @@ const Nav = () => {
       </div>}
     </div>
     <div >
-      <Link href={'/academics'} className={`hover:text-pink hover:border-b-2 border-pink pb-[3px] ${router==='/academics'?'text-pink':''} `}>ACADEMICS<div></div></Link>
+      <Link href={'/academics'} className={`hover:text-pink ${router==='/academics'?'text-pink':''} `}>ACADEMICS<div></div></Link>
     </div>
     <button className=' bg-secondary hover:bg-pink text-primary px-5 py-3 xl:mr-0 mr-4 min-w-[158px]' >
       <Link className='flex gap-[0.5px] items-center whitespace-nowrap' href={'#'}>SCHOOL PORTAL<div><RxCaretRight color='white' size={22}/></div></Link>

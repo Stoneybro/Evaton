@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import {FaInstagram,FaLinkedinIn} from 'react-icons/fa'
+import {FaInstagram,FaLinkedinIn,FaYoutube} from 'react-icons/fa'
 import {BiLogoFacebook} from 'react-icons/bi'
 import {RxCaretUp} from 'react-icons/rx'
 import evaton from '../../public/evaton2.png'
@@ -23,6 +23,7 @@ const Footer = () => {
                       <div className="h-8 w-8 bg-white flex justify-center items-center rounded-full"> <BiLogoFacebook color='#0D41DB' /></div>
                       <div className="h-8 w-8 bg-white flex justify-center items-center rounded-full"><FaInstagram color='#0D41DB' /> </div>
                       <div className="h-8 w-8 bg-white flex justify-center items-center rounded-full"> <FaLinkedinIn color='#0D41DB' /></div>
+                      <div className="h-8 w-8 bg-white flex justify-center items-center rounded-full"> <FaYoutube color='#0D41DB' /></div>
                   </div>
               </div>
 

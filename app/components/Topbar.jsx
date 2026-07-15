@@ -2,7 +2,7 @@ import { MdOutlinePhone, MdOutlineEmail, MdOutlineLocationOn } from 'react-icons
 
 const Topbar = () => {
   return (
-    <div className="w-full bg-slate-50 h-[50px] hidden lg:flex items-center justify-end px-12">
+    <div className="w-full bg-slate-50 h-[30px] hidden lg:flex items-center justify-end px-12">
       <div className="flex items-center gap-7">
 
         {/* Phone */}

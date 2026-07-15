@@ -120,7 +120,7 @@ const numbers = () => {
 
 </div>
 <div className="w-full mt-8 lg:mt-16">
-<button className=' text-center bg-secondary text-white px-10 py-2  flex justify-center mx-auto'>
+<button className='px-6 py-3.5 bg-secondary text-white font-bold text-lg mx-auto flex justify-center'>
       CONTACT US
     </button>
 </div>

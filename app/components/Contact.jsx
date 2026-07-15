@@ -20,11 +20,11 @@ const Contact = () => {
                 <div className="flex-[2] flex flex-col  lg:pl-16 text-black ">
                     <div className="w-full flex flex-col">
                     <div className="flex  flex-[1] flex-col lg:flex-row gap-4 lg:gap-6 wrap w-full mb-10">
-                        <div className="w-full "><input type="text" className='w-full py-4 px-4 text-xl font-semibold placeholder:text-zinc-400' placeholder='Name'/></div>
-                        <div className="w-full"><input type="text" className='w-full py-4 px-4 text-xl font-semibold placeholder:text-zinc-400' placeholder='Email Address' /></div>
+                        <div className="w-full "><input type="text" className='w-full py-4 px-4 text-lg font-semibold placeholder:text-zinc-400' placeholder='Name'/></div>
+                        <div className="w-full"><input type="text" className='w-full py-4 px-4 text-lg font-semibold placeholder:text-zinc-400' placeholder='Email Address' /></div>
                     </div>
                     <div className="flex flex-[3] w-full h-full"><textarea name="" id="" placeholder='Message' className='w-full h-44 outline-none p-4 text-lg font-semibold placeholder:text-zinc-400'></textarea></div>
-                    <button className="flex-[1] py-3.5 px-14 bg-secondary mt-10 lg:mt-6 lg:ml-auto text-lg font-bold text-white lg:w-40 ">Submit</button>
+                    <button className="flex-[1] py-3.5 px-14 bg-secondary mt-10 lg:mt-6 lg:ml-auto flex justify-center items-center text-center text-lg font-bold text-white lg:w-40 ">Submit</button>
                     </div>
                     
                 </div>
